@@ -27,7 +27,7 @@ const Home = () => {
       <Heading size="md" marginBottom={6}>
         NFT Minting
       </Heading>
-      <Button colorScheme="blue" onClick={() => write()}>
+      <Button colorScheme="blue" onClick={() => write?.()}>
         {isLoading ? 'Minting...':'Mint'}
       </Button>
     </VStack>
