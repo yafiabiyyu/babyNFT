@@ -1,9 +1,9 @@
 import { Heading, VStack, Button } from '@chakra-ui/react';
-import { contractAbi, contractAddress } from 'utils/contract';
+import { contractAddress } from 'utils/contract';
 import { useContractWrite } from 'wagmi';
 
 const Home = () => {
-  const { data, isLoading, isSuccess, write } = useContractWrite({
+  const { isLoading, write } = useContractWrite({
     address: contractAddress,
     abi: [
       {

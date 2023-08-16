@@ -1,4 +1,3 @@
-import { Interface } from 'ethers/lib/utils.js';
 
 export const contractAddress = '0xc52A29194C583b05A6602E1f5f3675AF50095Fa9';
 export const contractAbi = [
